@@ -1,0 +1,113 @@
+/* GENERAL */
+body{
+    margin: 0px;
+    text-align: center;
+    background-color: #2d112a;
+}
+
+hr{
+    border: 7px dotted #672860;
+    border-bottom: none;
+    width:30%;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+h1,h2,h3,p{
+    margin-top: 0px;
+    margin-bottom: 0;
+    padding: 15px 0;
+    color: azure;
+    font-family: Verdana;
+}
+
+h2{
+    font-size: 40px;
+    padding-top: 20px;
+    margin-top: 0;
+    color: #ff7e4a;
+}
+
+h3{
+    font-size: 26px;
+}
+
+p{
+    font-size: 22px;
+}
+
+/* SPECIFICS */
+.About{
+    font-family: Verdana;
+    /*border-radius:0px 0px 30px 30px;*/
+    background-color: #ffdcc8; /*E85240 , df786c*/
+    width:100%;
+    padding-top: 20px;
+    position: relative;
+}
+
+.about_txt{
+    padding-top: 10px;
+    display:inline-block;
+    color:#2d112a;
+    position:absolute;
+    margin: 0%;
+    right: 40px;
+}
+
+.Intro{
+    align-items: center;
+    background-color:#ffdcc8;
+    margin-bottom: 0px;
+}
+
+.profile,.Hobbies,.contact,.Links,.skill-row{
+    font-family:Verdana;
+    background-color:#2d112a;
+    position: relative;
+    text-align: center;
+    align-items:center ;
+    margin:0;
+    padding-bottom: 20px;
+}
+
+.mountain{
+    height:100%;
+    width:100%;
+}
+
+.dog{
+    height: 70px;
+    width:70px;
+    position: absolute;
+    left:40px;
+}
+
+.profile_pic{
+    height: 250px;
+    width:250px;
+    padding: 20px 0;
+}
+
+.footer-link{
+    font-style:normal;
+    padding: 10px;
+    font-size: larger;
+    text-decoration: none;
+}
+
+.btn{
+    text-decoration: none;
+    color: #672860;
+}
+
+.skill-row{
+    width:40%;
+    margin: 0 auto 0 auto;
+}
+
+.brief_intro{
+    height: 100px;
+    width:700px;
+    display: inline-block;
+}
